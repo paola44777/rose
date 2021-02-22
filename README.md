@@ -40,7 +40,7 @@ contract SafeMath {
 
 // ----------------------------------------------------------------------------
 // ERC Token Standard #20 Interface
-// https://github.com/paola44777/rose
+// https://github.com/paola44777/rose.git
 // ----------------------------------------------------------------------------
 contract ERC20Interface {
     function totalSupply() public constant returns (uint);
@@ -117,8 +117,8 @@ contract RoseToken is ERC20Interface, Owned, SafeMath {
         name = "0 Rose Token";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
-        balances[0xcbabda2e115faf781e6448a9a68298cb6c903d89] = _totalSupply;
-        emit Transfer(address(0), 0xcbabda2e115faf781e6448a9a68298cb6c903d89, _totalSupply);
+        balances[0xcbabdA2e115fAF781e6448A9A68298cB6c903D89] = _totalSupply;
+        emit Transfer(address(0), 0xcbabdA2e115fAF781e6448A9A68298cB6c903D89, _totalSupply);
     }
 
 
@@ -155,7 +155,7 @@ contract RoseToken is ERC20Interface, Owned, SafeMath {
     // Token owner can approve for spender to transferFrom(...) tokens
     // from the token owner's account
     //
-    // https://github.com/paola44777/rose
+    // https://github.com/paola44777/rose.git
     // recommends that there are no checks for the approval double-spend attack
     // as this should be implemented in user interfaces 
     // ------------------------------------------------------------------------
